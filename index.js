@@ -4,4 +4,3 @@ function driversWithRevenueOver(drivers, revenue) {
 
   return driversWithOver;
 }
-
