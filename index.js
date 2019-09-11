@@ -9,8 +9,8 @@ function driversWithRevenueOver(drivers, revenue) {
 function driverNamesWithRevenueOver(drivers, revenue) {
   driverNamesWithOver = drivers.filter(driver => driver.revenue > revenue);
 
-  driverNamesWithOver.forEach(function (driver {
+  driverNamesWithOver.forEach(function (driver) {
     return driver.name;
-  }))
+  });
 
 }
